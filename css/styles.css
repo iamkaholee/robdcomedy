@@ -1,0 +1,409 @@
+body {
+	background-image:url('../img/bg.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	background-attachment: fixed;
+    background-position: center;
+}
+
+.nav-bg {
+	background-color:#000;
+}
+
+.navbar-fixed-top {
+	margin:0 7em;
+	border-bottom:1px solid white;
+	padding-top:3em;
+}
+
+#navleft, #navright, #socialmedia, #menuoptions {
+	padding:0;
+}
+
+#socialmedia, #menuoptions, #logo {
+	display:inline-block;
+}
+
+#menuoptions {
+	text-align:right;
+}
+
+#socialmedia li {
+	display:inline-block;
+}
+
+#twitter, #youtube, #insta {
+	padding-right:.5em;
+}
+
+#menuoptions li {
+	padding-left:1em;
+}
+
+
+#logo {
+	display:none;
+	transform: translateX(-50%);
+  	left: 50%;
+  	position: absolute;
+}
+
+#menuoptions a {
+	color:#fff;
+	padding:0 .5em;
+	text-decoration:none;
+}
+
+#menuoptions a:hover {
+	color:#0099ff;
+	background-color:transparent;
+}
+
+.icon-bar {
+	background-color:#0099ff;
+}
+
+#landing h1 {
+	color: #0099ff;
+	font-size:12vw;
+	font-family: 'Oswald', sans-serif;
+	padding-top:20%;
+}
+
+#landing h2 {
+	color:#fff;
+	font-size:5vw;
+	font-family: 'Raleway', sans-serif;
+}
+
+#landing h1, h2,
+#about h1,
+#sched h1,
+#media h1,
+#contact h1 {
+	text-align:center;
+}
+
+#landing, #about, #sched, #media {
+	padding-bottom:25%;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+}
+
+.bounce {
+	-webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-o-animation-name: bounce;
+	animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+#about h1, #sched h1, #media h1, #contact h1{
+	color: #fff;
+	font-size:5em;
+	font-family: 'Oswald', sans-serif;
+	padding:.75em 0;
+}
+
+
+#about, #sched, #contact {
+	color:#fff;
+}
+
+#about {
+	text-align:center;
+}
+
+#bio {
+	padding-left:10%;
+	padding-right:3em;
+}
+
+
+.summary {
+	font-family:'Raleway', sans-serif;
+	font-size:15px;
+	line-height:2;
+	text-align:left;
+}
+
+#quote {
+	font-family: 'Oswald', sans-serif;
+	font-size:1.75em;
+	text-align:center;
+	padding:1em 0;
+}
+
+
+
+#quotemark {
+	font-size:3em;
+}
+.summary a {
+	color:#0099ff;
+}
+
+.summary a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+#skeptic, #attell {
+	padding-bottom:.75em;
+}
+
+#skeptic {
+	padding-right:1em;
+}
+
+.mic {
+	border-left:1px solid white;
+	padding-left:.5em;
+}
+
+.eventdetails h3 {
+	margin:0;
+	color:#0099ff;
+}
+
+.eventcontainer {
+	padding:0 5em;
+}
+
+#eventdate {
+	text-align:right;
+}
+
+.month {
+	font-size:2em;
+}
+
+.date {
+	font-size:3em;
+}
+
+#headmsg {
+	text-align:center;
+}
+
+#contact {
+	padding:0 10% 18%;
+}
+
+#sendbutton {
+	display:block;
+	margin:0 auto;
+	border:none;
+	padding:0;
+}
+
+#logo1 {
+	display:none;
+}
+
+
+@media only screen and (device-width: 768px),
+       only screen and (max-width: 768px) {
+
+    #landing {
+    	padding-top: 2em;
+    }
+
+    .arrow {
+    	display:none;
+    }
+
+    #navbar-header {
+    	width:100%;
+    }
+
+    #logo {
+    	visibility: hidden;
+    }
+
+    #ChangeToggle, #socialmedia {
+    	padding:0;
+    }
+
+    .navbar-fixed-top {
+    	margin-left:3em;
+    	margin-right:3em;
+    }
+
+    #logo1 {
+    	display:inline;
+    }
+
+	#socialmedia, #menuoptions {
+		display:block;
+	}
+
+	#socialmedia {
+		text-align:right;
+		padding-top:.5em;
+	}
+
+	#twitter, #youtube, #insta {
+		padding-right:0;
+	}
+
+	#menuoptions {
+		padding-right:15px;
+	}
+
+	#menuoptions a {
+		color:#000;
+		padding:1px 0;
+	}
+
+	#navarea {
+		background-color:#fff;
+	}
+
+    #skeptic, #attell, #charlie {
+    	max-width:70%;
+    	height:auto;
+    }
+
+    #about {
+		padding-left:0;
+	}
+
+	#collage {
+		text-align:center;
+	}
+
+	#bio {
+		padding:0 3em;
+	}
+
+}
+
+@media (max-width: 1024px) {
+    .arrow {
+    	display:none;
+    }
+
+    .navbar-header {
+        float: none;
+
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    #navbar-header {
+    	width:100%;
+    }
+
+    #logo {
+    	visibility: hidden;
+    }
+
+    #ChangeToggle, #socialmedia {
+    	padding:0;
+    }
+
+    .navbar-fixed-top {
+    	margin-left:3em;
+    	margin-right:3em;
+    }
+
+    #logo1 {
+    	display:inline;
+    }
+
+	#socialmedia, #menuoptions {
+		display:block;
+	}
+
+	#socialmedia {
+		text-align:right;
+		padding-top:.5em;
+	}
+
+	#twitter, #youtube, #insta {
+		padding-right:0;
+	}
+
+	#menuoptions {
+		padding-right:15px;
+	}
+
+	#menuoptions a {
+		color:#000;
+		padding:1px 0;
+	}
+
+	#navarea {
+		background-color:#fff;
+		margin:0 -15px;
+		padding-right:1.5em;
+	}
+}
